@@ -1,0 +1,261 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.logo b{
+    text-align: left;
+    font-size: 25px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+a{
+    text-align: justify;
+    color: black;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+.menu{
+    height: 50px;
+    display: flex;
+align-items: center;
+gap: 20px;
+}
+.menu >a{
+    text-transform: capitalize; 
+}
+
+.menu a:first-child {
+    font-weight: bold;    
+    text-decoration: underline;
+    color: rgb(234, 104, 104);
+  }
+.banniere1{
+ display: flex;
+ gap: 10px;
+}
+.banniere1> img{
+    height: 700px;
+
+}
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 5px;
+}
+
+.img{  
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+ 
+.im{
+    height: 345px;
+    width: 516px;
+}
+.menu2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+    padding: 10px;
+}
+
+.menu3 a:first-child {
+    font-weight: bold;    
+    text-decoration: underline;
+    color: rgb(234, 104, 104);
+  }
+  
+
+.new-product h4{
+    text-decoration: none;
+    color: black;
+}
+
+.banniere2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1500px;
+}
+  
+.item {
+    text-align: center;
+    margin: 10px;
+}
+
+.collection{
+    height: 400px;
+    width: 300px;
+}
+
+.item i{
+   color: #f5f915;
+}
+  
+.item p {
+    margin-top: 5px;
+    font-weight: bold;
+} 
+
+.banniere3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+  }
+  
+.items1 {
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+  
+.collection1 {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 5px;
+}
+  
+.item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10px;
+}
+
+.items1 p{
+    float: right;
+    font-weight:lighter;
+    color: black
+}
+
+.items1 i{
+    color: #f5f915;
+ }
+   
+  
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+  
+.slides {
+    display: flex;
+    width: 200%; 
+    animation: slideAnimation 20s infinite;
+}
+  
+.slide {
+    flex: 1 1 50px;
+    height: 600px; 
+}
+  
+.slide1 {
+    background-image: url('images/image3.jpg');
+    background-size: cover;
+}
+  
+.slide2 {
+    background-image: url('images/image2.jpg');
+    background-size: cover;
+}
+  
+.slide3 {
+    background-image: url('images/pc-q-t_02._CB427901981_.gif');
+    background-size: cover;
+}
+  
+@keyframes slideAnimation {
+    0% { margin-left: 0; }
+    33.33% { margin-left: -100%; }
+    66.66% { margin-left: -100%; }
+    100% { margin-left: 0; }
+}
+.banniere4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.image{
+    height: 300px;
+    width: 255px;
+   
+ } 
+
+footer {
+    background-color: rgb(127, 125, 125);
+    color: #000000;
+    padding: 30px;
+  }
+  
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact {
+        flex: 0 0 200px;
+}
+.newsletter {
+    flex: 0 0 200px;
+    margin-top: 5px;
+}
+
+/* .newsletter form {
+    display: flex;
+    margin-top: 10px;
+} */
+  
+.newsletter input[type="email"] {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+  
+.newsletter button {
+    padding: 5px 10px;
+    background-color: #c93b3b;
+    color: #ffffff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+  
+.newsletter button:focus {
+    outline: none;
+}
+
+.summer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.summer img{
+    height: 300px;
+    width: 400px;
+}
+.Info-Sup{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+   
+}
+.info i{
+    float: left;
+    color: #ce2c2c;
+}
